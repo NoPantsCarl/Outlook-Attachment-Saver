@@ -1,22 +1,27 @@
-# Outlook-Attachment-Saver
-Quickly save outlook attachments in a batch rather then one by one with this Marco
+# Outlook Attachment Saver
 
-1. Change Line 90 to your folder location you wish to save all attacments strFolderPath = "C:\Users\nopantscarl\Desktop\Needs work"
-2. Go to file in Outlook and click on options
-3. Select the Outlook opitions then customize ribbon
-4 On the right side you can find the enable developer tab
-5. Back to the main outlook main window you can acess the developer ribbon.
-6. click on the Macro Security Button
-7. In the sub screen you should slect “Notifications for all macros” and okay
-8. Press Alt+F11 
-9. Click on insert > Module > copy code into the module or you can import it at this point
-10. At this Point you can Just F5 to bring up the modules and click run
+This script facilitates the quick saving of Outlook attachments in a batch, rather than individually, through a macro.
 
-If you wish to add it to quick access
-1. Follow the stepes above to get to the Outlook options
-2. Select Quick access toolbar tab
-3. Select Marcros from the Choose commands from.
-4. the in the macro list choose a marco (what ever you named or the name of the import)
-5. Click add >> button in the center
-6. Click Ok
-7. to run the marco now just click the marco button in quick access toolbar
+### Instructions:
+
+1. Modify Line 90 to specify the folder location where you want to save all attachments: `strFolderPath = "C:\Users\nopantscarl\Desktop\Needs work"`
+2. Navigate to "File" in Outlook and select "Options."
+3. Choose "Outlook Options," then "Customize Ribbon."
+4. On the right side, locate and enable the "Developer" tab.
+5. Return to the main Outlook window to access the developer ribbon.
+6. Click on the "Macro Security" button.
+7. In the subsequent window, select "Notifications for all macros" and confirm.
+8. Press Alt + F11 to open the Visual Basic for Applications (VBA) editor.
+9. Click on "Insert" > "Module" and paste the provided code into the module, or import it at this stage.
+10. Press F5 to display the modules and click "Run" to execute the macro.
+
+### Quick Access Integration:
+
+1. Follow the aforementioned steps to access Outlook options.
+2. Choose the "Quick Access Toolbar" tab.
+3. Select "Macros" from the "Choose commands from" dropdown menu.
+4. From the macro list, select the desired macro (either the name you assigned or the imported name).
+5. Click the "Add >>" button at the center.
+6. Click "OK" to confirm.
+7. To execute the macro from the Quick Access Toolbar, simply click its corresponding button.
+
